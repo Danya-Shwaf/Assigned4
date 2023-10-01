@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form method="get">
+        <div>
+            <label>Username</label>
+            <input type="text"
+             name="username" 
+             autofocus 
+             required 
+             minlength="5"
+             maxlength="20">
+            <hr>
+            <br>
+        </div>
+        <div>
+        <label>Email</label>
+        <input 
+        type="email" 
+        name="email" 
+        value="o@o.com" 
+        readonly>
+        <hr>
+        <br>
+        </div>
+        <div>
+        <label>Token</label>
+        <input type="text" 
+         name="token"
+         value="b92f1fc2fce391ad7af633723afd3055"
+         hidden>
+        <hr>
+        <br>
+        </div>
+        <div>
+            <h3>Skills:</h3>
+            <label for="l1">Problem Solving</label>
+            <input 
+             id="l1"
+             type="checkbox" 
+             value="problem solving" 
+             name="skills">
+            </div>
+            <br>
+            <div>
+            <label for="l2">Logical Thinkin</label>
+            <input 
+            id="l2" 
+            type="checkbox" 
+            value="logical thinkin" 
+            name="skills">
+            </div>
+            <br>
+            <div>
+            <label for="l3">Advanced Search</label>
+            <input 
+            id="l3" 
+            type="checkbox" 
+            value="advanced search" 
+            name="skills" 
+            checked>
+            </div>
+            <br>
+            <div>
+            <label for="l4">Analysis</label>
+            <input 
+            id="l4" 
+            type="checkbox" 
+            value="analysis" 
+            name="skills">
+            </div>
+            <br>
+            <div>
+            <label for="l5"> Planning</label>
+            <input 
+            id="l5" 
+            type="checkbox" 
+            value="planing" 
+            name="skills">
+            </div>
+            <br>
+            <div>
+                <h3>Job:</h3>
+                <div>
+                    <input 
+                    type="radio" 
+                    id="r1" 
+                    value="Front-End Develope" 
+                    name="job">
+                    <label for="r1">Front-End Developer</label>
+                </div>
+                <br>
+                <div>
+                    <input 
+                    type="radio" 
+                    id="r2" 
+                    value="Back-End Developer" 
+                    name="job">
+                    <label for="r2">Back-End Developer</label>
+                </div>
+                <br>
+                <div>
+                    <input 
+                    type="radio" 
+                    id="r3" 
+                    value="Business Analyst" 
+                    name="job">
+                    <label for="r3">Business Analyst</label>
+                </div>
+                <br>
+                <div>
+                    <input 
+                    type="radio" 
+                    id="r4" 
+                    value="Project Manager" 
+                    name="job">
+                    <label for="r4">Project Manager</label>
+                </div>
+                <br>
+                <div>
+                    <input 
+                    type="radio" 
+                    id="r5" 
+                    value="Scrum Master" 
+                    name="job" 
+                    checked>
+                    <label for="r5">Scrum Master</label>
+                </div>
+            </div>
+            <br>
+            <label for="book">Choos Book:</label>
+            <select name="book" id="book" >
+                <optgroup label="PHP">
+                    <option>v5.0</option>
+                    <option>v7.0</option>
+                    <option>v8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option>v2.0</option>
+                    <option>v3.0</option>
+                    <option>v9.0</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <textarea placeholder="Write Here Why You Want To Learn Programming" name="brief"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Empty" >
+        </form>
+    
+</body>
+</html>
